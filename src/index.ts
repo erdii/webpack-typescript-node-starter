@@ -1,3 +1,8 @@
-setInterval(() => {
+async function main() {
 	console.log("hi");
-}, 500);
+}
+
+main().catch(err => {
+	console.error("An uncatched error occured!", err);
+	process.exit(1);
+});
