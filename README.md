@@ -1,3 +1,13 @@
-readme
+# My typescript starter for node projects
 
-will be there soon - pls have a look into `package.json`
+### Overview
+
+* watch and rebuild on file change: `yarn run watch`; in another terminal: `node-dev build/app.js`
+* production build: `yarn run build`
+* ...
+
+
+### TODO
+
+* better docs
+* uglify all the things
